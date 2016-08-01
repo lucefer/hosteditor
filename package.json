@@ -1,0 +1,17 @@
+{
+  "name": "hosteditor",
+  "version": "1.0.0",
+  "description": "编辑host,host,edit host",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "host"
+  ],
+  "author": "fanqi",
+  "license": "MIT",
+  "bin":{
+    "eh":"./index.js"
+  }
+}
