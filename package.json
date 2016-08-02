@@ -1,17 +1,24 @@
 {
-  "name": "hosteditor",
-  "version": "0.1.2",
-  "description": "编辑host,host,edit host",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "host"
-  ],
-  "author": "fanqi",
-  "license": "MIT",
-  "bin":{
-    "chhst":"./index.js"
-  }
+    "name": "hosteditor",
+    "version": "0.1.2",
+    "description": "基于nodejs的host编辑，查看工具",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "hosts", "edit host", "list host"
+    ],
+    "author": {
+        "name": "fanqi",
+        "email": "fanqi_danding@126.com"
+    },
+    "repository":{
+      "type":"git",
+      "url":"git@github.com:lucefer/hosteditor.git"
+    },
+    "license": "MIT",
+    "bin": {
+        "chhst": "./index.js"
+    }
 }
