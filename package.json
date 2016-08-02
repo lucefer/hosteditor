@@ -1,6 +1,6 @@
 {
   "name": "hosteditor",
-  "version": "1.0.0",
+  "version": "0.1.2",
   "description": "编辑host,host,edit host",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,6 @@
   "author": "fanqi",
   "license": "MIT",
   "bin":{
-    "eh":"./index.js"
+    "chhst":"./index.js"
   }
 }
