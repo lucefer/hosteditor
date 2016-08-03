@@ -4,7 +4,9 @@
 
 用法:
 
-1：启用host，命令【chhst(change hosts的简写) 127.0.0.1 fanqi.com】
+chhst命令：(change hosts的简写) 
+
+1：启用host，命令【chhst 127.0.0.1 fanqi.com】
 
 2：列出当前可用的host，命令【chhst ls】;
 
