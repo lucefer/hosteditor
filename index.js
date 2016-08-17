@@ -15,13 +15,16 @@ switch (ip) {
         if (!ipExp.test(ip)) {
             err += "IP地址不合法\r\n";
         }
-        if (!domainExp.test(domain)) {
-            err += "域名不合法";
+        for(var i=3;i<process.argv.length;i++){
+          domain=process.argv[i];
+          if (!domainExp.test(domain)) {
+              err += "域名不合法";
+          }
         }
         if ("" != err) {
             console.log(err);
             return;
         }
-        hostEdit.modifyHost(ip, domain);
+        hostEdit.modifyHost(ip, process.argv.slice(3).join(" "));
         break;
 }
